@@ -612,7 +612,7 @@ void ParseParameters(int argc, const char* const argv[])
     }
 }
 
-namespace sdc
+namespace xsdt
 {
 void* memrchr(const void *s, int c, size_t n)
 {
@@ -1048,7 +1048,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "shadowcoin";
+    const char* pszModule = "stealthcash";
 #endif
     if (pex)
         return strprintf(
@@ -1078,15 +1078,15 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\ShadowCoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\ShadowCoin
-    // Mac: ~/Library/Application Support/ShadowCoin
-    // Unix: ~/.shadowcoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\StealthCash
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\StealthCash
+    // Mac: ~/Library/Application Support/StealthCash
+    // Unix: ~/.stealthcash
     
     
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "ShadowCoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "StealthCash";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1098,10 +1098,10 @@ boost::filesystem::path GetDefaultDataDir()
         // Mac
         pathRet /= "Library/Application Support";
         fs::create_directory(pathRet);
-        return pathRet / "ShadowCoin";
+        return pathRet / "StealthCash";
     #else
         // Unix
-        return pathRet / ".shadowcoin";
+        return pathRet / ".stealthcash";
     #endif
 #endif
 
@@ -1152,7 +1152,7 @@ const boost::filesystem::path &GetDataDir(bool fNetSpecific)
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "shadowcoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "stealthcash.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1183,7 +1183,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "shadowcoind.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "stealthcashd.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }
@@ -1367,10 +1367,10 @@ void AddTimeData(const CNetAddr& ip, int64_t nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong ShadowCoin will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong StealthCash will not work properly.");
                     strMiscWarning = strMessage;
                     printf("*** %s\n", strMessage.c_str());
-                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("ShadowCoin"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
+                    uiInterface.ThreadSafeMessageBox(strMessage+" ", string("StealthCash"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION);
                 }
             }
         }

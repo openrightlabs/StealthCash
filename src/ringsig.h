@@ -1,9 +1,9 @@
-// Copyright (c) 2014 The ShadowCoin developers
+// Copyright (c) 2014 The StealthCash developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef SDC_RINGSIG_H
-#define SDC_RINGSIG_H
+#ifndef XSDT_RINGSIG_H
+#define XSDT_RINGSIG_H
 
 #include "core.h"
 #include "stealth.h"
@@ -33,5 +33,5 @@ int generateRingSignature(std::vector<uint8_t>& keyImage, uint256& txnHash, int 
 int verifyRingSignature(std::vector<uint8_t>& keyImage, uint256& txnHash, int nRingSize, const uint8_t *pPubkeys, const uint8_t *pSigc, const uint8_t *pSigr);
 
 
-#endif  // SDC_RINGSIG_H
+#endif  // XSDT_RINGSIG_H
 

@@ -1,4 +1,4 @@
-// Copyright (c) 2014 The ShadowCoin developers
+// Copyright (c) 2014 The StealthCash developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -593,7 +593,7 @@ void ThreadSecureMsg(void* parg)
         nThreadCount++;
     }
     // -- bucket management thread
-    RenameThread("shadowcoin-smsg"); // Make this thread recognisable
+    RenameThread("stealthcash-smsg"); // Make this thread recognisable
 
     while (fSecMsgEnabled)
     {
@@ -698,7 +698,7 @@ void ThreadSecureMsgPow(void* parg)
         nThreadCount++;
     }
     // -- proof of work thread
-    RenameThread("shadowcoin-smsg-pow"); // Make this thread recognisable
+    RenameThread("stealthcash-smsg-pow"); // Make this thread recognisable
 
     int rv;
     std::vector<unsigned char> vchKey;

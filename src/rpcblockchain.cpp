@@ -589,7 +589,7 @@ Value rewindchain(const Array& params, bool fHelp)
             uint32_t findPos = sizeof(buffer);
             while (findPos > sizeof(pchMessageStart))
             {
-                if ((nFind = sdc::memrchr(buffer, pchMessageStart[0], findPos-sizeof(pchMessageStart))))
+                if ((nFind = xsdt::memrchr(buffer, pchMessageStart[0], findPos-sizeof(pchMessageStart))))
                 {
                     if (memcmp(nFind, pchMessageStart, sizeof(pchMessageStart)) == 0)
                     {
@@ -714,7 +714,7 @@ Value rewindchain(const Array& params, bool fHelp)
     
     // -- need restart, setStakeSeen etc
     if (nRemoved > 0)
-        result.push_back(Pair("Please restart shadowcoin", ""));
+        result.push_back(Pair("Please restart stealthcash", ""));
     
     if (nRemoved == nNumber)
         result.push_back(Pair("result", "success"));

@@ -363,9 +363,9 @@ public:
         return nCredit;
     }
     
-    bool GetCredit(const CTransaction& tx, int64_t& nSDC, int64_t& nShadow) const
+    bool GetCredit(const CTransaction& tx, int64_t& nXSDT, int64_t& nShadow) const
     {
-        nSDC = 0;
+        nXSDT = 0;
         nShadow = 0;
         BOOST_FOREACH(const CTxOut& txout, tx.vout)
         {
@@ -374,8 +374,8 @@ public:
             {
                 nShadow += GetShadowCredit(txout);
             } else
-                nSDC += GetCredit(txout);
-            if (!MoneyRange(nSDC)
+                nXSDT += GetCredit(txout);
+            if (!MoneyRange(nXSDT)
                 || !MoneyRange(nShadow))
                 throw std::runtime_error("CWallet::GetCredit() : value out of range");
         }
@@ -529,7 +529,7 @@ public:
     mutable int64_t nChangeCached;
     mutable int64_t nAvailableShadowCreditCached;
     
-    mutable int64_t nCredSDCCached;
+    mutable int64_t nCredXSDTCached;
     mutable int64_t nCredShadowCached;
 
     CWalletTx()
@@ -569,7 +569,7 @@ public:
         fAvailableCreditCached = false;
         fAvailableShadowCreditCached = false;
         
-        nCredSDCCached = 0;
+        nCredXSDTCached = 0;
         nCredShadowCached = 0;
         fCreditSplitCached = false;
         
@@ -740,25 +740,25 @@ public:
         return nCreditCached;
     }
     
-    bool GetCredit(int64_t& nCredSDC, int64_t& nCredShadow, bool fUseCache=true) const
+    bool GetCredit(int64_t& nCredXSDT, int64_t& nCredShadow, bool fUseCache=true) const
     {
         // Must wait until coinbase is safely deep enough in the chain before valuing it
         if ((IsCoinBase() || IsCoinStake()) && GetBlocksToMaturity() > 0)
         {
-            nCredSDC = nCredShadow = 0;
+            nCredXSDT = nCredShadow = 0;
             return true;
         }
         
         // GetBalance can assume transactions in mapWallet won't change
         if (!fUseCache || !fCreditSplitCached)
         {
-            nCredSDCCached = 0;
+            nCredXSDTCached = 0;
             nCredShadowCached = 0;
-            pwallet->GetCredit(*this, nCredSDCCached, nCredShadowCached);
+            pwallet->GetCredit(*this, nCredXSDTCached, nCredShadowCached);
             fCreditSplitCached = true;
         };
         
-        nCredSDC = nCredSDCCached;
+        nCredXSDT = nCredXSDTCached;
         nCredShadow = nCredShadowCached;
         return true;
     }

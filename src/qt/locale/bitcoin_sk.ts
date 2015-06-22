@@ -3,24 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About ShadowCoin</source>
-        <translation>O ShadowCoin</translation>
+        <source>About StealthCash</source>
+        <translation>O StealthCash</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;ShadowCoin&lt;/b&gt; version</source>
-        <translation>verzia &lt;b&gt;ShadowCoinu&lt;/b&gt;</translation>
+        <source>&lt;b&gt;StealthCash&lt;/b&gt; version</source>
+        <translation>verzia &lt;b&gt;StealthCashu&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2014 The ShadowCoin developers</source>
+Copyright © 2014 The StealthCash developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2014 The ShadowCoin developers</translation>
+Copyright © 2014 The StealthCash developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -67,8 +67,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your ShadowCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše ShadowCoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your StealthCash addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše StealthCash adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -82,8 +82,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a ShadowCoin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto ShadowCoin adresu</translation>
+        <source>Sign a message to prove you own a StealthCash address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto StealthCash adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -97,8 +97,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified ShadowCoin address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou ShadowCoin adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified StealthCash address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou StealthCash adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -265,8 +265,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-58"/>
-        <source>ShadowCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>ShadowCoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
+        <source>StealthCash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>StealthCash sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -379,8 +379,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about ShadowCoin</source>
-        <translation>Zobraziť informácie o ShadowCoin</translation>
+        <source>Show information about StealthCash</source>
+        <translation>Zobraziť informácie o StealthCash</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -429,13 +429,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a ShadowCoin address</source>
-        <translation>Poslať mince na ShadowCoin adresu</translation>
+        <source>Send coins to a StealthCash address</source>
+        <translation>Poslať mince na StealthCash adresu</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for ShadowCoin</source>
-        <translation>Upraviť možnosti konfigurácie pre ShadowCoin</translation>
+        <source>Modify configuration options for StealthCash</source>
+        <translation>Upraviť možnosti konfigurácie pre StealthCash</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -474,8 +474,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-200"/>
-        <source>ShadowCoin</source>
-        <translation>ShadowCoin</translation>
+        <source>StealthCash</source>
+        <translation>StealthCash</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -484,8 +484,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About ShadowCoin</source>
-        <translation>&amp;O ShadowCoin</translation>
+        <source>&amp;About StealthCash</source>
+        <translation>&amp;O StealthCash</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -541,13 +541,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>ShadowCoin client</source>
-        <translation>ShadowCoin klient</translation>
+        <source>StealthCash client</source>
+        <translation>StealthCash klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to ShadowCoin network</source>
-        <translation><numerusform>%n aktívne spojenie s ShadowCoin sieťov</numerusform><numerusform>%n aktívnych spojení s ShadowCoin sieťov</numerusform><numerusform>%n aktívnych spojení s ShadowCoin sieťou</numerusform></translation>
+        <source>%n active connection(s) to StealthCash network</source>
+        <translation><numerusform>%n aktívne spojenie s StealthCash sieťov</numerusform><numerusform>%n aktívnych spojení s StealthCash sieťov</numerusform><numerusform>%n aktívnych spojení s StealthCash sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -660,8 +660,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid ShadowCoin address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou ShadowCoin adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid StealthCash address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou StealthCash adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -720,8 +720,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. ShadowCoin can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. ShadowCoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. StealthCash can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. StealthCash už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1054,8 +1054,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid ShadowCoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou ShadowCoin adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid StealthCash address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou StealthCash adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1073,8 +1073,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>ShadowCoin-Qt</source>
-        <translation>ShadowCoin-Qt</translation>
+        <source>StealthCash-Qt</source>
+        <translation>StealthCash-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1146,13 +1146,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start ShadowCoin after logging in to the system.</source>
-        <translation>Automaticky spustiť ShadowCoin po prihlásení sa do systému.</translation>
+        <source>Automatically start StealthCash after logging in to the system.</source>
+        <translation>Automaticky spustiť StealthCash po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start ShadowCoin on system login</source>
-        <translation>&amp;Spustiť ShadowCoin pri prihlásení do systému</translation>
+        <source>&amp;Start StealthCash on system login</source>
+        <translation>&amp;Spustiť StealthCash pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1171,8 +1171,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the ShadowCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta ShadowCoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the StealthCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta StealthCash na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1181,8 +1181,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the ShadowCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojenie k sieti ShadowCoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the StealthCash network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojenie k sieti StealthCash cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1256,8 +1256,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting ShadowCoin.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní ShadowCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting StealthCash.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní StealthCash.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1271,8 +1271,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show ShadowCoin addresses in the transaction list or not.</source>
-        <translation>Či chcete zobraziť ShadowCoin adresy v zozname transakcií alebo nie.</translation>
+        <source>Whether to show StealthCash addresses in the transaction list or not.</source>
+        <translation>Či chcete zobraziť StealthCash adresy v zozname transakcií alebo nie.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1318,8 +1318,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting ShadowCoin.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní ShadowCoin.</translation>
+        <source>This setting will take effect after restarting StealthCash.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní StealthCash.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1337,8 +1337,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ShadowCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou ShadowCoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the StealthCash network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou StealthCash po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1553,8 +1553,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the ShadowCoin-Qt help message to get a list with possible ShadowCoin command-line options.</source>
-        <translation>Zobraziť ShadowCoin-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku ShadowCoin.</translation>
+        <source>Show the StealthCash-Qt help message to get a list with possible StealthCash command-line options.</source>
+        <translation>Zobraziť StealthCash-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku StealthCash.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1573,13 +1573,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>ShadowCoin - Debug window</source>
-        <translation>ShadowCoin - Ladiace okno</translation>
+        <source>StealthCash - Debug window</source>
+        <translation>StealthCash - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>ShadowCoin Core</source>
-        <translation>Jadro ShadowCoin</translation>
+        <source>StealthCash Core</source>
+        <translation>Jadro StealthCash</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1588,8 +1588,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the ShadowCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte ShadowCoin súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the StealthCash debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte StealthCash súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1598,8 +1598,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the ShadowCoin RPC console.</source>
-        <translation>Vitajte v konzole ShadowCoin RPC.</translation>
+        <source>Welcome to the StealthCash RPC console.</source>
+        <translation>Vitajte v konzole StealthCash RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1672,8 +1672,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 SDC</source>
-        <translation>123.456 SDC {0.00 ?}</translation>
+        <source>0.00 XSDT</source>
+        <translation>123.456 XSDT {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1742,8 +1742,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 SDC</source>
-        <translation>123.456 SDC</translation>
+        <source>123.456 XSDT</source>
+        <translation>123.456 XSDT</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1757,8 +1757,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a ShadowCoin address (e.g. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</source>
-        <translation>Zadajte ShadowCoin adresu (napr. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</translation>
+        <source>Enter a StealthCash address (e.g. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</source>
+        <translation>Zadajte StealthCash adresu (napr. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1857,8 +1857,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid ShadowCoin address</source>
-        <translation>UPOZORNENIE: Neplatná ShadowCoin adresa</translation>
+        <source>WARNING: Invalid StealthCash address</source>
+        <translation>UPOZORNENIE: Neplatná StealthCash adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1931,8 +1931,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a ShadowCoin address (e.g. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</source>
-        <translation>Zadajte ShadowCoin adresu (napr. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</translation>
+        <source>Enter a StealthCash address (e.g. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</source>
+        <translation>Zadajte StealthCash adresu (napr. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</translation>
     </message>
 </context>
 <context>
@@ -1992,8 +1992,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ShadowCoin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto ShadowCoin adresu</translation>
+        <source>Sign the message to prove you own this StealthCash address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto StealthCash adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2024,8 +2024,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified ShadowCoin address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou ShadowCoin adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified StealthCash address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou StealthCash adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2035,8 +2035,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a ShadowCoin address (e.g. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</source>
-        <translation>Zadajte ShadowCoin adresu (napr. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</translation>
+        <source>Enter a StealthCash address (e.g. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</source>
+        <translation>Zadajte StealthCash adresu (napr. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2045,8 +2045,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter ShadowCoin signature</source>
-        <translation>Zadajte ShadowCoin podpis</translation>
+        <source>Enter StealthCash signature</source>
+        <translation>Zadajte StealthCash podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2616,8 +2616,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>ShadowCoin version</source>
-        <translation>ShadowCoin verzia</translation>
+        <source>StealthCash version</source>
+        <translation>StealthCash verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2626,8 +2626,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or shadowcoind</source>
-        <translation>Pošli príkaz na -server alebo shadowcoind</translation>
+        <source>Send command to -server or stealthcashd</source>
+        <translation>Pošli príkaz na -server alebo stealthcashd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2646,13 +2646,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: shadowcoin.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: shadowcoin.conf)</translation>
+        <source>Specify configuration file (default: stealthcash.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: stealthcash.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: shadowcoind.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: shadowcoind.pid)</translation>
+        <source>Specify pid file (default: stealthcashd.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: stealthcashd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2801,8 +2801,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ShadowCoin will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny ShadowCoin nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong StealthCash will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny StealthCash nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2991,24 +2991,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=shadowcoinrpc
+rpcuser=stealthcashrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;ShadowCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;StealthCash Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
  %s
 Je odporúčané použiť nasledujúce náhodné heslo:
-rpcuser=shadowcoinrpc
+rpcuser=stealthcashrpc
 rpcpassword=%s
 (Nemusíte si pamätať toto heslo)
 Užívateľské meno a heslo nesmú byť rovnaké. 
 Ak súbor neexistuje, vytvorte ho s oprávneniami súborov vlastníkov iba na čítatanie.
 Odporúča sa tiež nastaviť alertnotify, takže budete upozornení na problémy;
-napríklad: alertnotify=echo %%s | mail -s &quot;ShadowCoin Alert&quot; admin@foo.com</translation>
+napríklad: alertnotify=echo %%s | mail -s &quot;StealthCash Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3132,13 +3132,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;ShadowCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  ShadowCoin is probably already running.</source>
-        <translation>Nemožno získať zámok na dátový adresár %s. ShadowCoin už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s.  StealthCash is probably already running.</source>
+        <translation>Nemožno získať zámok na dátový adresár %s. StealthCash už pravdepodobne beží.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>ShadowCoin</source>
-        <translation>ShadowCoin</translation>
+        <source>StealthCash</source>
+        <translation>StealthCash</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3172,13 +3172,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;ShadowCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of ShadowCoin</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu ShadowCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of StealthCash</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu StealthCash</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart ShadowCoin to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte ShadowCoin k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart StealthCash to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte StealthCash k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3247,8 +3247,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;ShadowCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. ShadowCoin is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. ShadowCoin je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. StealthCash is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. StealthCash je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-97"/>

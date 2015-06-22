@@ -1,9 +1,9 @@
-// Copyright (c) 2014 The ShadowCoin developers
+// Copyright (c) 2014 The StealthCash developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file license.txt or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef SDC_CORE_H
-#define SDC_CORE_H
+#ifndef XSDT_CORE_H
+#define XSDT_CORE_H
 
 #include "util.h"
 #include "serialize.h"
@@ -195,5 +195,5 @@ public:
     
 };
 
-#endif  // SDC_CORE_H
+#endif  // XSDT_CORE_H
 

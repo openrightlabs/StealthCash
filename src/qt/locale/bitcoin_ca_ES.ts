@@ -3,24 +3,24 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About ShadowCoin</source>
-        <translation>Sobre ShadowCoin</translation>
+        <source>About StealthCash</source>
+        <translation>Sobre StealthCash</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;ShadowCoin&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;ShadowCoin&lt;/b&gt;</translation>
+        <source>&lt;b&gt;StealthCash&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt;StealthCash&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2014 The ShadowCoin developers</source>
+Copyright © 2014 The StealthCash developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2014 The BlackCoin developers
-Copyright © 2014 The ShadowCoin developers</translation>
+Copyright © 2014 The StealthCash developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -62,8 +62,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your ShadowCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de ShadowCoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <source>These are your StealthCash addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces de StealthCash per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -77,8 +77,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a ShadowCoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça ShadowCoin</translation>
+        <source>Sign a message to prove you own a StealthCash address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça StealthCash</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -92,8 +92,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified ShadowCoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça ShadowCoin especificada.</translation>
+        <source>Verify a message to ensure it was signed with a specified StealthCash address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça StealthCash especificada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -260,8 +260,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>ShadowCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>ShadowCoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source>StealthCash will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>StealthCash tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about ShadowCoin</source>
-        <translation>Mostra informació sobre ShadowCoin</translation>
+        <source>Show information about StealthCash</source>
+        <translation>Mostra informació sobre StealthCash</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -424,13 +424,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-62"/>
-        <source>Send coins to a ShadowCoin address</source>
-        <translation>Enviar monedes a una adreça ShadowCoin</translation>
+        <source>Send coins to a StealthCash address</source>
+        <translation>Enviar monedes a una adreça StealthCash</translation>
     </message>
     <message>
         <location line="+45"/>
-        <source>Modify configuration options for ShadowCoin</source>
-        <translation>Modificar les opcions de configuració per a ShadowCoin</translation>
+        <source>Modify configuration options for StealthCash</source>
+        <translation>Modificar les opcions de configuració per a StealthCash</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -469,8 +469,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-200"/>
-        <source>ShadowCoin</source>
-        <translation>ShadowCoin</translation>
+        <source>StealthCash</source>
+        <translation>StealthCash</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -479,8 +479,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+178"/>
-        <source>&amp;About ShadowCoin</source>
-        <translation>&amp;Sobre ShadowCoin</translation>
+        <source>&amp;About StealthCash</source>
+        <translation>&amp;Sobre StealthCash</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -536,13 +536,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>ShadowCoin client</source>
-        <translation>Client ShadowCoin</translation>
+        <source>StealthCash client</source>
+        <translation>Client StealthCash</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to ShadowCoin network</source>
-        <translation><numerusform>%n conexió activa a la xarxa ShadowCoin</numerusform><numerusform>%n conexions actives a la xarxa ShadowCoin</numerusform></translation>
+        <source>%n active connection(s) to StealthCash network</source>
+        <translation><numerusform>%n conexió activa a la xarxa StealthCash</numerusform><numerusform>%n conexions actives a la xarxa StealthCash</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -652,8 +652,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid ShadowCoin address or malformed URI parameters.</source>
-        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça ShadowCoin no vàlida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid StealthCash address or malformed URI parameters.</source>
+        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça StealthCash no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -712,8 +712,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. ShadowCoin can no longer continue safely and will quit.</source>
-        <translation>S&apos;ha produït un error fatal. ShadowCoin ja no pot continuar de forma segura i es tancarà.</translation>
+        <source>A fatal error occurred. StealthCash can no longer continue safely and will quit.</source>
+        <translation>S&apos;ha produït un error fatal. StealthCash ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
@@ -1046,8 +1046,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid ShadowCoin address.</source>
-        <translation>La direcció introduïda &quot;%1&quot; no és una adreça ShadowCoin vàlida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid StealthCash address.</source>
+        <translation>La direcció introduïda &quot;%1&quot; no és una adreça StealthCash vàlida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1065,8 +1065,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>ShadowCoin-Qt</source>
-        <translation>ShadowCoin-Qt</translation>
+        <source>StealthCash-Qt</source>
+        <translation>StealthCash-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1138,13 +1138,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start ShadowCoin after logging in to the system.</source>
-        <translation>Inicia automàticament ShadowCoin després d&apos;entrar en el sistema.</translation>
+        <source>Automatically start StealthCash after logging in to the system.</source>
+        <translation>Inicia automàticament StealthCash després d&apos;entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start ShadowCoin on system login</source>
-        <translation>&amp;Iniciar ShadowCoin amb l&apos;inici de sessió</translation>
+        <source>&amp;Start StealthCash on system login</source>
+        <translation>&amp;Iniciar StealthCash amb l&apos;inici de sessió</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1163,8 +1163,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the ShadowCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir automàticament el port de client ShadowCoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
+        <source>Automatically open the StealthCash client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir automàticament el port de client StealthCash en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1173,8 +1173,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the ShadowCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecteu-vos a la xarxa ShadowCoin través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
+        <source>Connect to the StealthCash network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecteu-vos a la xarxa StealthCash través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1248,8 +1248,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting ShadowCoin.</source>
-        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar ShadowCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting StealthCash.</source>
+        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar StealthCash.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1263,8 +1263,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show ShadowCoin addresses in the transaction list or not.</source>
-        <translation>Per mostrar ShadowCoin adreces a la llista de transaccions o no.</translation>
+        <source>Whether to show StealthCash addresses in the transaction list or not.</source>
+        <translation>Per mostrar StealthCash adreces a la llista de transaccions o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1310,8 +1310,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting ShadowCoin.</source>
-        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar ShadowCoin.</translation>
+        <source>This setting will take effect after restarting StealthCash.</source>
+        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar StealthCash.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1329,8 +1329,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ShadowCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa ShadowCoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the StealthCash network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa StealthCash després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1545,8 +1545,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the ShadowCoin-Qt help message to get a list with possible ShadowCoin command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de ShadowCoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres ShadowCoin.</translation>
+        <source>Show the StealthCash-Qt help message to get a list with possible StealthCash command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de StealthCash-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres StealthCash.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1565,13 +1565,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>ShadowCoin - Debug window</source>
-        <translation>ShadowCoin - Finestra Depuració</translation>
+        <source>StealthCash - Debug window</source>
+        <translation>StealthCash - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>ShadowCoin Core</source>
-        <translation>Nucli ShadowCoin</translation>
+        <source>StealthCash Core</source>
+        <translation>Nucli StealthCash</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1580,8 +1580,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the ShadowCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obriu el fitxer de registre de depuració ShadowCoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
+        <source>Open the StealthCash debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obriu el fitxer de registre de depuració StealthCash des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1590,8 +1590,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the ShadowCoin RPC console.</source>
-        <translation>Benvingut a la consola RPC de ShadowCoin.</translation>
+        <source>Welcome to the StealthCash RPC console.</source>
+        <translation>Benvingut a la consola RPC de StealthCash.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1664,8 +1664,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 SDC</source>
-        <translation>123.456 SDC {0.00 ?}</translation>
+        <source>0.00 XSDT</source>
+        <translation>123.456 XSDT {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1734,8 +1734,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 SDC</source>
-        <translation>123.456 SDC</translation>
+        <source>123.456 XSDT</source>
+        <translation>123.456 XSDT</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1749,8 +1749,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a ShadowCoin address (e.g. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</source>
-        <translation>Introdueix una adreça ShadowCoin (p.ex. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</translation>
+        <source>Enter a StealthCash address (e.g. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</source>
+        <translation>Introdueix una adreça StealthCash (p.ex. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1849,8 +1849,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid ShadowCoin address</source>
-        <translation>ADVERTÈNCIA: Direcció ShadowCoin invàlida</translation>
+        <source>WARNING: Invalid StealthCash address</source>
+        <translation>ADVERTÈNCIA: Direcció StealthCash invàlida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1923,8 +1923,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a ShadowCoin address (e.g. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</source>
-        <translation>Introdueix una adreça ShadowCoin (p.ex. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</translation>
+        <source>Enter a StealthCash address (e.g. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</source>
+        <translation>Introdueix una adreça StealthCash (p.ex. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</translation>
     </message>
 </context>
 <context>
@@ -1984,8 +1984,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ShadowCoin address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça ShadowCoin</translation>
+        <source>Sign the message to prove you own this StealthCash address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça StealthCash</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2016,8 +2016,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified ShadowCoin address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça ShadowCoin especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified StealthCash address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça StealthCash especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2027,8 +2027,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a ShadowCoin address (e.g. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</source>
-        <translation>Introdueix una adreça ShadowCoin (p.ex. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</translation>
+        <source>Enter a StealthCash address (e.g. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</source>
+        <translation>Introdueix una adreça StealthCash (p.ex. SXywGBZBowrppUwwNUo1GCRDTibzJi7g2M)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2037,8 +2037,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter ShadowCoin signature</source>
-        <translation>Introduïu la signatura ShadowCoin</translation>
+        <source>Enter StealthCash signature</source>
+        <translation>Introduïu la signatura StealthCash</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2608,8 +2608,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>ShadowCoin version</source>
-        <translation>versió ShadowCoin</translation>
+        <source>StealthCash version</source>
+        <translation>versió StealthCash</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2618,8 +2618,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or shadowcoind</source>
-        <translation>Enviar comandes a -server o shadowcoind</translation>
+        <source>Send command to -server or stealthcashd</source>
+        <translation>Enviar comandes a -server o stealthcashd</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2638,13 +2638,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: shadowcoin.conf)</source>
-        <translation>Especifiqueu el fitxer de configuració (per defecte: shadowcoin.conf)</translation>
+        <source>Specify configuration file (default: stealthcash.conf)</source>
+        <translation>Especifiqueu el fitxer de configuració (per defecte: stealthcash.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: shadowcoind.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: shadowcoind.pid)</translation>
+        <source>Specify pid file (default: stealthcashd.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: stealthcashd.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2793,8 +2793,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ShadowCoin will not work properly.</source>
-        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni ShadowCoin no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong StealthCash will not work properly.</source>
+        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni StealthCash no funcionarà correctament.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2983,24 +2983,24 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=shadowcoinrpc
+rpcuser=stealthcashrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;ShadowCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;StealthCash Alert&quot; admin@foo.com
 </source>
         <translation>%s, ha d&apos;establir un rpcpassword al fitxer de configuració:
 %s
 Es recomana utilitzar la següent contrasenya aleatòria:
-rpcuser=shadowcoinrpc
+rpcuser=stealthcashrpc
 rpcpassword=%s
 (No cal recordar aquesta contrasenya)
 El nom d&apos;usuari i contrasenya NO HA DE SER el mateix.
 Si no hi ha l&apos;arxiu, s&apos;ha de crear amb els permisos de només lectura per al propietari.
 També es recomana establir alertnotify per a que se li notifiquin els problemes;
-per exemple: alertnotify=echo %%s | mail -s &quot;ShadowCoin Alert&quot; admin@foo.com
+per exemple: alertnotify=echo %%s | mail -s &quot;StealthCash Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3126,13 +3126,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  ShadowCoin is probably already running.</source>
-        <translation>No es pot obtenir un bloqueig en el directori de dades %s. ShadowCoin probablement ja estigui en funcionament.</translation>
+        <source>Cannot obtain a lock on data directory %s.  StealthCash is probably already running.</source>
+        <translation>No es pot obtenir un bloqueig en el directori de dades %s. StealthCash probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>ShadowCoin</source>
-        <translation>ShadowCoin</translation>
+        <source>StealthCash</source>
+        <translation>StealthCash</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3166,13 +3166,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of ShadowCoin</source>
-        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de ShadowCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of StealthCash</source>
+        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de StealthCash</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart ShadowCoin to complete</source>
-        <translation>El moneder necessita ser reescrita: reiniciar ShadowCoin per completar</translation>
+        <source>Wallet needed to be rewritten: restart StealthCash to complete</source>
+        <translation>El moneder necessita ser reescrita: reiniciar StealthCash per completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3241,8 +3241,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. ShadowCoin is probably already running.</source>
-        <translation>No es pot enllaçar a %s en aquest equip. ShadowCoin probablement ja estigui en funcionament.</translation>
+        <source>Unable to bind to %s on this computer. StealthCash is probably already running.</source>
+        <translation>No es pot enllaçar a %s en aquest equip. StealthCash probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-97"/>

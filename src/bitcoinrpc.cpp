@@ -190,9 +190,9 @@ string CRPCTable::help(string strCommand) const
         
         if (fAllAnon)
         {
-            if (strMethod != "sendsdctoanon"
+            if (strMethod != "sendxsdttoanon"
                 && strMethod != "sendanontoanon"
-                && strMethod != "sendanontosdc"
+                && strMethod != "sendanontoxsdt"
                 && strMethod != "estimateanonfee"
                 && strMethod != "anonoutputs"
                 && strMethod != "anoninfo"
@@ -245,12 +245,12 @@ Value stop(const Array& params, bool fHelp)
         throw runtime_error(
             "stop <detach>\n"
             "<detach> is true or false to detach the database or not for this stop only\n"
-            "Stop ShadowCoin server (and possibly override the detachdb config value).");
+            "Stop StealthCash server (and possibly override the detachdb config value).");
     // Shutdown will take long enough that the response should get back
     if (params.size() > 0)
         bitdb.SetDetach(params[0].get_bool());
     StartShutdown();
-    return "ShadowCoin server stopping";
+    return "StealthCash server stopping";
 }
 
 
@@ -345,9 +345,9 @@ static const CRPCCommand vRPCCommands[] =
     { "scanforalltxns",         &scanforalltxns,         false,  false},
     { "scanforstealthtxns",     &scanforstealthtxns,     false,  false},
     
-    { "sendsdctoanon",          &sendsdctoanon,          false,  false},
+    { "sendxsdttoanon",          &sendxsdttoanon,          false,  false},
     { "sendanontoanon",         &sendanontoanon,         false,  false},
-    { "sendanontosdc",          &sendanontosdc,          false,  false},
+    { "sendanontoxsdt",          &sendanontoxsdt,          false,  false},
     { "estimateanonfee",        &estimateanonfee,        false,  false},
     { "anonoutputs",            &anonoutputs,            false,  false},
     { "anoninfo",               &anoninfo,               false,  false},
@@ -406,7 +406,7 @@ string HTTPPost(const string& strMsg, const map<string,string>& mapRequestHeader
 {
     ostringstream s;
     s << "POST / HTTP/1.1\r\n"
-      << "User-Agent: shadowcoin-json-rpc/" << FormatFullVersion() << "\r\n"
+      << "User-Agent: stealthcash-json-rpc/" << FormatFullVersion() << "\r\n"
       << "Host: 127.0.0.1\r\n"
       << "Content-Type: application/json\r\n"
       << "Content-Length: " << strMsg.size() << "\r\n"
@@ -437,7 +437,7 @@ static string HTTPReply(int nStatus, const string& strMsg, bool keepalive)
     if (nStatus == HTTP_UNAUTHORIZED)
         return strprintf("HTTP/1.0 401 Authorization Required\r\n"
             "Date: %s\r\n"
-            "Server: shadowcoin-json-rpc/%s\r\n"
+            "Server: stealthcash-json-rpc/%s\r\n"
             "WWW-Authenticate: Basic realm=\"jsonrpc\"\r\n"
             "Content-Type: text/html\r\n"
             "Content-Length: 296\r\n"
@@ -464,7 +464,7 @@ static string HTTPReply(int nStatus, const string& strMsg, bool keepalive)
             "Connection: %s\r\n"
             "Content-Length: %"PRIszu"\r\n"
             "Content-Type: application/json\r\n"
-            "Server: shadowcoin-json-rpc/%s\r\n"
+            "Server: stealthcash-json-rpc/%s\r\n"
             "\r\n"
             "%s",
         nStatus,
@@ -735,7 +735,7 @@ private:
 void ThreadRPCServer(void* parg)
 {
     // Make this thread recognisable as the RPC listener
-    RenameThread("shadowcoin-rpclist");
+    RenameThread("stealthcash-rpclist");
 
     try
     {
@@ -839,7 +839,7 @@ void ThreadRPCServer2(void* parg)
     {
         unsigned char rand_pwd[32];
         RAND_bytes(rand_pwd, 32);
-        string strWhatAmI = "To use shadowcoind";
+        string strWhatAmI = "To use stealthcashd";
         if (mapArgs.count("-server"))
             strWhatAmI = strprintf(_("To use the %s option"), "\"-server\"");
         else if (mapArgs.count("-daemon"))
@@ -847,13 +847,13 @@ void ThreadRPCServer2(void* parg)
         uiInterface.ThreadSafeMessageBox(strprintf(
             _("%s, you must set a rpcpassword in the configuration file:\n %s\n"
               "It is recommended you use the following random password:\n"
-              "rpcuser=shadowcoinrpc\n"
+              "rpcuser=stealthcashrpc\n"
               "rpcpassword=%s\n"
               "(you do not need to remember this password)\n"
               "The username and password MUST NOT be the same.\n"
               "If the file does not exist, create it with owner-readable-only file permissions.\n"
               "It is also recommended to set alertnotify so you are notified of problems;\n"
-              "for example: alertnotify=echo %%s | mail -s \"ShadowCoin Alert\" admin@foo.com\n"),
+              "for example: alertnotify=echo %%s | mail -s \"StealthCash Alert\" admin@foo.com\n"),
                 strWhatAmI.c_str(),
                 GetConfigFile().string().c_str(),
                 EncodeBase58(&rand_pwd[0],&rand_pwd[0]+32).c_str()),
@@ -1039,7 +1039,7 @@ static CCriticalSection cs_THREAD_RPCHANDLER;
 void ThreadRPCServer3(void* parg)
 {
     // Make this thread recognisable as the RPC handler
-    RenameThread("shadowcoin-rpchand");
+    RenameThread("stealthcash-rpchand");
 
     {
         LOCK(cs_THREAD_RPCHANDLER);
@@ -1307,11 +1307,11 @@ Array RPCConvertValues(const std::string &strMethod, const std::vector<std::stri
     
     if (strMethod == "sendtostealthaddress"   && n > 1) ConvertTo<double>(params[1]);
     
-    if (strMethod == "sendsdctoanon"          && n > 1) ConvertTo<double>(params[1]);
+    if (strMethod == "sendxsdttoanon"          && n > 1) ConvertTo<double>(params[1]);
     if (strMethod == "sendanontoanon"         && n > 1) ConvertTo<double>(params[1]);
     if (strMethod == "sendanontoanon"         && n > 2) ConvertTo<int>(params[2]);
-    if (strMethod == "sendanontosdc"          && n > 1) ConvertTo<double>(params[1]);
-    if (strMethod == "sendanontosdc"          && n > 2) ConvertTo<int>(params[2]);
+    if (strMethod == "sendanontoxsdt"          && n > 1) ConvertTo<double>(params[1]);
+    if (strMethod == "sendanontoxsdt"          && n > 2) ConvertTo<int>(params[2]);
     if (strMethod == "estimateanonfee"        && n > 0) ConvertTo<double>(params[0]);
     if (strMethod == "estimateanonfee"        && n > 1) ConvertTo<int>(params[1]);
     

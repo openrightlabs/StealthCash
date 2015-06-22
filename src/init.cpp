@@ -75,7 +75,7 @@ void Shutdown(void* parg)
     static bool fTaken;
 
     // Make this thread recognisable as the shutdown thread
-    RenameThread("shadowcoin-shutoff");
+    RenameThread("stealthcash-shutoff");
 
     bool fFirstThread = false;
     {
@@ -106,7 +106,7 @@ void Shutdown(void* parg)
             };
         };
 
-        printf("ShadowCoin exited\n\n");
+        printf("StealthCash exited\n\n");
         fExit = true;
 #ifndef QT_GUI
         // ensure non-UI client gets exited here, but let Bitcoin-Qt reach 'return 0;' in bitcoin.cpp
@@ -161,12 +161,12 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("ShadowCoin version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("StealthCash version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  shadowcoind [options]                     " + "\n" +
-                  "  shadowcoind [options] <command> [params]  " + _("Send command to -server or shadowcoind") + "\n" +
-                  "  shadowcoind [options] help                " + _("List commands") + "\n" +
-                  "  shadowcoind [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  stealthcashd [options]                     " + "\n" +
+                  "  stealthcashd [options] <command> [params]  " + _("Send command to -server or stealthcashd") + "\n" +
+                  "  stealthcashd [options] help                " + _("List commands") + "\n" +
+                  "  stealthcashd [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -176,7 +176,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "shadowcoin:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "stealthcash:"))
                 fCommandLine = true;
 
         if (fCommandLine)
@@ -219,13 +219,13 @@ int main(int argc, char* argv[])
 
 bool static InitError(const std::string &str)
 {
-    uiInterface.ThreadSafeMessageBox(str, _("ShadowCoin"), CClientUIInterface::OK | CClientUIInterface::MODAL);
+    uiInterface.ThreadSafeMessageBox(str, _("StealthCash"), CClientUIInterface::OK | CClientUIInterface::MODAL);
     return false;
 }
 
 bool static InitWarning(const std::string &str)
 {
-    uiInterface.ThreadSafeMessageBox(str, _("ShadowCoin"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+    uiInterface.ThreadSafeMessageBox(str, _("StealthCash"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
     return true;
 }
 
@@ -251,8 +251,8 @@ std::string HelpMessage()
 {
     string strUsage = _("Options:") + "\n" +
         "  -?                     " + _("This help message") + "\n" +
-        "  -conf=<file>           " + _("Specify configuration file (default: shadowcoin.conf)") + "\n" +
-        "  -pid=<file>            " + _("Specify pid file (default: shadowcoind.pid)") + "\n" +
+        "  -conf=<file>           " + _("Specify configuration file (default: stealthcash.conf)") + "\n" +
+        "  -pid=<file>            " + _("Specify pid file (default: stealthcashd.pid)") + "\n" +
         "  -datadir=<dir>         " + _("Specify data directory") + "\n" +
         "  -wallet=<dir>          " + _("Specify wallet file (within data directory)") + "\n" +
         "  -dbcache=<n>           " + _("Set database cache size in megabytes (default: 25)") + "\n" +
@@ -606,7 +606,7 @@ bool AppInit2()
     // ********************************************************* Step 4: application initialization: dir lock, daemonize, pidfile, debug log
     // Sanity check
     if (!InitSanityCheck())
-        return InitError(_("Initialization sanity check failed. ShadowCoin is shutting down."));
+        return InitError(_("Initialization sanity check failed. StealthCash is shutting down."));
 
     std::string strDataDir = GetDataDir().string();
     std::string strWalletFileName = GetArg("-wallet", "wallet.dat");
@@ -623,7 +623,7 @@ bool AppInit2()
 
     static boost::interprocess::file_lock lock(pathLockFile.string().c_str());
     if (!lock.try_lock())
-        return InitError(strprintf(_("Cannot obtain a lock on data directory %s.  ShadowCoin is probably already running."), strDataDir.c_str()));
+        return InitError(strprintf(_("Cannot obtain a lock on data directory %s.  StealthCash is probably already running."), strDataDir.c_str()));
 
 #if !defined(WIN32) && !defined(QT_GUI)
     if (fDaemon)
@@ -652,7 +652,7 @@ bool AppInit2()
         ShrinkDebugFile();
 
     printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
-    printf("ShadowCoin version %s (%s)\n", FormatFullVersion().c_str(), CLIENT_DATE.c_str());
+    printf("StealthCash version %s (%s)\n", FormatFullVersion().c_str(), CLIENT_DATE.c_str());
     printf("Operating in %s mode.\n", GetNodeModeName(nNodeMode));
     printf("Using OpenSSL version %s\n", SSLeay_version(SSLEAY_VERSION));
 
@@ -665,7 +665,7 @@ bool AppInit2()
     std::ostringstream strErrors;
 
     if (fDaemon)
-        fprintf(stdout, "ShadowCoin server starting\n");
+        fprintf(stdout, "StealthCash server starting\n");
 
     int64_t nStart;
 
@@ -778,7 +778,7 @@ bool AppInit2()
                                      " Original wallet.dat saved as wallet.{timestamp}.bak in %s; if"
                                      " your balance or transactions are incorrect you should"
                                      " restore from a backup."), strDataDir.c_str());
-            uiInterface.ThreadSafeMessageBox(msg, _("ShadowCoin"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+            uiInterface.ThreadSafeMessageBox(msg, _("StealthCash"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
         };
 
         if (r == CDBEnv::RECOVER_FAIL)
@@ -998,15 +998,15 @@ bool AppInit2()
         {
             string msg(_("Warning: error reading wallet.dat! All keys read correctly, but transaction data"
                          " or address book entries might be missing or incorrect."));
-            uiInterface.ThreadSafeMessageBox(msg, _("ShadowCoin"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
+            uiInterface.ThreadSafeMessageBox(msg, _("StealthCash"), CClientUIInterface::OK | CClientUIInterface::ICON_EXCLAMATION | CClientUIInterface::MODAL);
         } else
         if (nLoadWalletRet == DB_TOO_NEW)
         {
-            strErrors << _("Error loading wallet.dat: Wallet requires newer version of ShadowCoin") << "\n";
+            strErrors << _("Error loading wallet.dat: Wallet requires newer version of StealthCash") << "\n";
         } else
         if (nLoadWalletRet == DB_NEED_REWRITE)
         {
-            strErrors << _("Wallet needed to be rewritten: restart ShadowCoin to complete") << "\n";
+            strErrors << _("Wallet needed to be rewritten: restart StealthCash to complete") << "\n";
             printf("%s", strErrors.str().c_str());
             return InitError(strErrors.str());
         } else
